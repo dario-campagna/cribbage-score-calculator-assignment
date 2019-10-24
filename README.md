@@ -49,7 +49,7 @@ A Cribbage hand score is calculated with the following rules.
   * twelve points for four cards of a kind (a "double pair royal", comprising six distinct pairs)
 * flush
   * four points for a flush, where all four cards in the hand are of the same suit, with an additional point if the starter card is also of that suit.
-  * one point for holding the Jack of the same suit as the starter card ("one for his nob"[5] or "... his nobs"[6])
+  * one point for holding the Jack of the same suit as the starter card
 
 | Cribbage hand | Score |
 |-------|--------|
