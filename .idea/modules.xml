@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java-tdd-env.iml" filepath="$PROJECT_DIR$/java-tdd-env.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cribbage-score-calculator-assignment.iml" filepath="$PROJECT_DIR$/cribbage-score-calculator-assignment.iml" />
     </modules>
   </component>
 </project>
