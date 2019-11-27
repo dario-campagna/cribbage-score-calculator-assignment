@@ -1,7 +1,7 @@
 package cribbage;
 
 public class CardParser {
-    public static Card parseCard(String s) {
+    public static Card parseCard(String cardAsText) {
         return new Card();
     }
 }

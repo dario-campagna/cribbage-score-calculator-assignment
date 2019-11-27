@@ -1,6 +1,8 @@
 package test.cribbage;
 
+import cribbage.Card;
 import cribbage.CardParser;
+import cribbage.Suite;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -10,7 +12,8 @@ public class ParseHandTest {
 
     @Test
     void parseOneCard() {
-        assertThat(CardParser.parseCard("5H").rank(), is("5"));
-        assertThat(CardParser.parseCard("5H").suite(), is("H"));
+        Card card = CardParser.parseCard("5H");
+        assertThat(card.rank(), is("5"));
+        assertThat(card.suite(), is(Suite.HEART));
     }
 }
